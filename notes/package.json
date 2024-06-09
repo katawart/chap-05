@@ -4,18 +4,18 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
-    
   },
   "dependencies": {
-    "bootstrap": "4.1.x",
+    "bootstrap": "^4.6.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "hbs": "~4.0.4",
+    "express": "^4.19.2",
+    "feather-icons": ">=4.5.x",
+    "fs-extra": "^11.2.0",
+    "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
+    "jquery": "^1.12.4",
     "morgan": "~1.9.1",
-    "feather-icons": ">=4.5.x"
+    "popper.js": "1.14.x"
   }
-
-  
 }
