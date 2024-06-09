@@ -1,6 +1,6 @@
 import util from 'util';
 import express from 'express';
-import * as notes from '../models/notes-memory';
+import * as notes from '../models/notes';
 export const router = express.Router();
 // Add Note.
 router.get('/add', (req, res, next) => {
